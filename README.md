@@ -27,6 +27,7 @@ Explains metadata-driven processing, schema governance, and validation framework
 High-level view of platform components and data flow.
 
 👉 View Diagram
+
 ## Overview
 
 The Reinsurance Premium & Claims Validation Platform is an end-to-end data engineering solution designed to automate the ingestion, standardization, validation, and reconciliation of reinsurance premium and claims data.
