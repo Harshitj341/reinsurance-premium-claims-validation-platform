@@ -1,0 +1,27 @@
+# Data and Local Storage
+data/
+data_simulator/
+docker/data_receipt/
+
+# Logs
+logs/
+docker/logs/
+
+# Python & Airflow
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+# Spark & Metastore
+metastore_db/
+derby.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+# Operational Data Harbours
+data_receipt/
+quarantine/
+
+jars/*.jar
