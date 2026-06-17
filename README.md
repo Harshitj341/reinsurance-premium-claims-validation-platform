@@ -2,32 +2,6 @@
 
 ![Architecture](docs/architecture.png)
 
-Documentation
-
-For a deeper understanding of the platform, refer to the following documents:
-
-📖 Business Problem & Solution
-
-Explains the reinsurance operational challenges the platform was designed to solve.
-Describes the roles of Operations and Data Engineering teams.
-Covers treaty validation, claims validation, historical adjustments, and SOA reconciliation.
-
-👉 View Document
-
-🏗️ Technical Architecture
-
-Detailed explanation of the platform architecture and design decisions.
-Covers why Spark, Delta Lake, Airflow, PostgreSQL, and MinIO were selected.
-Explains metadata-driven processing, schema governance, and validation frameworks.
-
-👉 View Document
-
-📊 Architecture Diagram
-
-High-level view of platform components and data flow.
-
-👉 View Diagram
-
 ## Overview
 
 The Reinsurance Premium & Claims Validation Platform is an end-to-end data engineering solution designed to automate the ingestion, standardization, validation, and reconciliation of reinsurance premium and claims data.
@@ -167,6 +141,27 @@ The architecture separates business data from operational metadata and allows va
 
 ---
 
+## Documentation
+
+For a deeper understanding of the platform, refer to the following documents:
+
+* 📖 **Business Problem & Solution**
+
+  * Explains the reinsurance operational challenges the platform was designed to solve.
+  * Describes the roles of Operations and Data Engineering teams.
+  * Covers treaty validation, claims validation, historical adjustments, and SOA reconciliation.
+
+  👉 [View Document](./docs/business-problem.md)
+
+* 🏗️ **Technical Architecture**
+
+  * Detailed explanation of the platform architecture and design decisions.
+  * Covers why Spark, Delta Lake, Airflow, PostgreSQL, and MinIO were selected.
+  * Explains metadata-driven processing, schema governance, and validation frameworks.
+
+  👉 [View Document](./docs/technical-architecture.md)
+
+  
 ## Why This Architecture?
 
 ### Why Spark?
@@ -308,6 +303,8 @@ docker compose up --build
 * LLM-Assisted Validation Insights
 
 ---
+
+
 
 ## Author
 
